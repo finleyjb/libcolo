@@ -10,3 +10,7 @@
 </nav>
 
 {@render children()}
+
+<footer>
+	<p><a href="https://www.instagram.com/colorado.liberation.collective/">Instagram</a></p>
+</footer>
