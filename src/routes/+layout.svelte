@@ -5,7 +5,7 @@
 
 <nav>
 	<ul>
-		<li><strong>Colorado Liberation Collective</strong></li>
+		<li><h1>Colorado Liberation Collective</h1></li>
 	</ul>
 </nav>
 
