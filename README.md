@@ -2,17 +2,7 @@
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a846d6d-e72e-4a48-a85a-8c117b92c947/deploy-status)](https://app.netlify.com/projects/libcolo/deploys)
 
 ## Developing
 
