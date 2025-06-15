@@ -4,8 +4,11 @@ import { render, screen } from '@testing-library/svelte';
 import Page from './+page.svelte';
 
 describe('/+page.svelte', () => {
-  test('should render h1', () => {
+  test('should render p tags', () => {
     render(Page);
-    expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+    const paragraphs = screen.getAllByRole('paragraph');
+    for (const paragraph of paragraphs) {
+      expect(paragraph).toBeInTheDocument();
+    }
   });
 });
