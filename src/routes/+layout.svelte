@@ -5,7 +5,7 @@
   const SUBHEADERS = [
     'Humans don’t belong in cages, neither do animals',
     'Love pigs, hate the police',
-    'Eat the rich, not the animals'
+    'Eat the rich, not the animals',
   ];
 
   const subheaderIndex = Math.floor(Math.random() * SUBHEADERS.length);

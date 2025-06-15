@@ -8,8 +8,8 @@ export default defineConfig({
     sveltekit(),
     paraglideVitePlugin({
       project: './project.inlang',
-      outdir: './src/lib/paraglide'
-    })
+      outdir: './src/lib/paraglide',
+    }),
   ],
   test: {
     projects: [
@@ -22,8 +22,8 @@ export default defineConfig({
           clearMocks: true,
           include: ['src/**/*.svelte.{test,spec}.{js,ts}'],
           exclude: ['src/lib/server/**'],
-          setupFiles: ['./vitest-setup-client.ts']
-        }
+          setupFiles: ['./vitest-setup-client.ts'],
+        },
       },
       {
         extends: './vite.config.ts',
@@ -31,9 +31,9 @@ export default defineConfig({
           name: 'server',
           environment: 'node',
           include: ['src/**/*.{test,spec}.{js,ts}'],
-          exclude: ['src/**/*.svelte.{test,spec}.{js,ts}']
-        }
-      }
-    ]
-  }
+          exclude: ['src/**/*.svelte.{test,spec}.{js,ts}'],
+        },
+      },
+    ],
+  },
 });
