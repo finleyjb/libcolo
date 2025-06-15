@@ -3,11 +3,7 @@
   let { children } = $props();
 </script>
 
-<nav>
-  <ul>
-    <li><h1>Colorado Liberation Collective</h1></li>
-  </ul>
-</nav>
+<h1>Colorado Liberation Collective</h1>
 
 {@render children()}
 
