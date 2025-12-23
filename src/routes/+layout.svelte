@@ -22,3 +22,24 @@
 <footer>
   <p><a href="https://www.instagram.com/colorado.liberation.collective/">Instagram</a></p>
 </footer>
+
+<style>
+  [data-theme='light'],
+  :root:not([data-theme='dark']),
+  :host(:not([data-theme='dark'])) {
+    --pico-background-color: #faf7f2;
+    --pico-primary: #d4a017;
+    --pico-primary-underline: #d4a017;
+  }
+
+  h1 {
+    --pico-color: #5d2e5f;
+    --pico-font-size: 48px;
+    --pico-font-weight: 700;
+  }
+
+  p {
+    --pico-color: #2b2b2b;
+    --pico-font-weight: 400;
+  }
+</style>
