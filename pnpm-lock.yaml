@@ -14,6 +14,9 @@ importers:
       '@picocss/pico':
         specifier: ^2.1.1
         version: 2.1.1
+      '@svelte-web-fonts/google':
+        specifier: ^1.0.4
+        version: 1.0.4
     devDependencies:
       '@eslint/compat':
         specifier: ^1.4.1
@@ -587,6 +590,9 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@svelte-web-fonts/google@1.0.4':
+    resolution: {integrity: sha512-Eb9iv9x31BLm8ORwt7mB4G/7Cm+OY0BjczmaYGAzs3nDNYbTapg44bDBNZrn89dTH6Jc5PhyswigVAIXkNcROQ==}
 
   '@sveltejs/acorn-typescript@1.0.8':
     resolution: {integrity: sha512-esgN+54+q0NjB0Y/4BomT9samII7jGwNy/2a3wNZbT2A2RpmXsXwUt24LvLhx6jUq2gVk4cWEvcRO6MFQbOfNA==}
@@ -2109,6 +2115,8 @@ snapshots:
   '@sqlite.org/sqlite-wasm@3.48.0-build4': {}
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@svelte-web-fonts/google@1.0.4': {}
 
   '@sveltejs/acorn-typescript@1.0.8(acorn@8.15.0)':
     dependencies:
