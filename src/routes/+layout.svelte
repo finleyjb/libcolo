@@ -52,6 +52,7 @@
     --pico-primary-underline: #d4a017;
     --pico-font-family-sans-serif: 'Public Sans';
     --pico-font-family: var(--pico-font-family-sans-serif);
+    --pico-font-size: 18px;
   }
 
   h1 {
