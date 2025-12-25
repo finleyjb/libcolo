@@ -40,8 +40,7 @@
   },
   "dependencies": {
     "@inlang/paraglide-js": "^2.7.0",
-    "@picocss/pico": "^2.1.1",
-    "@svelte-web-fonts/google": "^1.0.4"
+    "@picocss/pico": "^2.1.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

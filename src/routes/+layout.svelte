@@ -1,7 +1,5 @@
 <script lang="ts">
   import '@picocss/pico';
-  import GoogleFont from '@svelte-web-fonts/google';
-  import type { GoogleFontDefinition, GoogleFontVariant } from '@svelte-web-fonts/google';
 
   let { children } = $props();
 
@@ -13,24 +11,9 @@
 
   const subheaderIndex = Math.floor(Math.random() * SUBHEADERS.length);
   const subheader = SUBHEADERS[subheaderIndex];
-
-  const fonts: GoogleFontDefinition[] = [
-    {
-      family: 'Outfit',
-      variants: ['700'],
-    },
-    {
-      family: 'Public Sans',
-      variants: ['400'],
-    },
-  ];
 </script>
 
-<svelte:head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <GoogleFont {fonts} display="swap" />
-</svelte:head>
+<svelte:head></svelte:head>
 
 <hgroup>
   <h1>Colorado Liberation Collective</h1>
