@@ -35,15 +35,17 @@
     --pico-primary-underline: #d4a017;
     --pico-font-family-sans-serif: 'Public Sans';
     --pico-font-family: var(--pico-font-family-sans-serif);
-    --pico-font-size: 18px;
+    --pico-font-size: 20px;
+    --pico-font-weight: 400;
+    --pico-color: #2b2b2b;
   }
 
   h1 {
     --pico-color: #5d2e5f;
     --pico-font-family-sans-serif: 'Outfit';
     --pico-font-family: var(--pico-font-family-sans-serif);
-    --pico-font-size: 48px;
-    --pico-font-weight: 700;
+    --pico-font-size: 80px;
+    --pico-font-weight: 600;
   }
 
   p {
