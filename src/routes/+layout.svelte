@@ -13,8 +13,6 @@
   const subheader = SUBHEADERS[subheaderIndex];
 </script>
 
-<svelte:head></svelte:head>
-
 <hgroup>
   <h1>Colorado Liberation Collective</h1>
   <p>{subheader}</p>
